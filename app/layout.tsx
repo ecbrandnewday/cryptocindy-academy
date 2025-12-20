@@ -48,18 +48,6 @@ export default function RootLayout({
               <span className="text-sm font-semibold text-rose-800">商店</span>
             </a>
 
-            <div className="flex-1 overflow-hidden rounded-3xl border border-slate-200 bg-gradient-to-r from-rose-50 via-white to-blue-50 shadow-sm">
-              <div
-                className="relative aspect-[32/7] w-full sm:aspect-[21/3]"
-                style={{
-                  backgroundImage: "url('/cryptocindy-banner.png')",
-                  backgroundSize: "cover",
-                  backgroundPosition: "center center",
-                }}
-              >
-                <div className="absolute inset-0" />
-              </div>
-            </div>
           </div>
         </div>
 
